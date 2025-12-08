@@ -1,13 +1,12 @@
-# 🌱 Plant AI Disease Detection App
+# 🌱 AI-Based Mobile App for Durian Leaf Disease Detection
 
-A comprehensive Flutter mobile application that leverages artificial intelligence to detect plant diseases through image analysis, providing farmers and gardeners with instant diagnosis and treatment recommendations.
+A comprehensive Flutter mobile application that leverages artificial intelligence to detect plant diseases (durian) through image analysis, providing farmers and gardeners with instant diagnosis and treatment recommendations.
 
 ## 📱 Overview
 
 This Flutter application combines computer vision, machine learning, and agricultural expertise to help users identify plant diseases quickly and accurately. Users can simply take a photo of their plant, and the AI will analyze the image to detect potential diseases, providing detailed information about causes, symptoms, and treatment options.
 
 ## ✨ Core Features
-
 
 ### 🔍 **AI-Powered Disease Detection**
 - **Real-time Camera Analysis**: Capture plant images using the device camera
@@ -44,7 +43,6 @@ This Flutter application combines computer vision, machine learning, and agricul
 - **Accessibility**: Built with accessibility best practices
 
 ## 🛠️ Technical Stack
-
 ### **Frontend**
 - **Framework**: Flutter 3.24.5
 - **Language**: Dart 3.5.4
@@ -77,23 +75,6 @@ Before running this application, ensure you have the following installed:
 - **Dart SDK**: Version 3.5.4 or higher (included with Flutter)
 - **Android Studio**: Latest version with Android SDK
 - **Git**: For version control
-
-### **Platform-Specific Requirements**
-
-#### **For Android Development**
-- **Android SDK**: API level 21 (Android 5.0) or higher
-- **Android Emulator**: Or physical Android device
-- **Java Development Kit (JDK)**: Version 11 or higher
-
-#### **For iOS Development** (macOS only)
-- **Xcode**: Latest version
-- **iOS Simulator**: Or physical iOS device
-- **CocoaPods**: For iOS dependency management
-
-### **External Services Setup**
-- **Supabase Account**: For backend services
-- **OpenWeatherMap API Key**: For weather integration
-- **TensorFlow Lite Models**: Pre-trained disease detection models
 
 ## 🚀 Installation & Setup
 
@@ -149,45 +130,6 @@ Check that Flutter is properly configured:
 flutter doctor
 ```
 
-## ▶️ Running the Application
-
-### **Development Mode**
-
-#### **Run on Android Emulator**
-```bash
-# Start Android emulator first, then:
-flutter run
-```
-
-#### **Run on iOS Simulator** (macOS only)
-```bash
-# Start iOS simulator first, then:
-flutter run
-```
-
-#### **Run on Physical Device**
-```bash
-# Connect device via USB and enable USB debugging, then:
-flutter run
-```
-
-### **Build for Production**
-
-#### **Android APK**
-```bash
-flutter build apk --release
-```
-
-#### **Android App Bundle**
-```bash
-flutter build appbundle --release
-```
-
-#### **iOS** (macOS only)
-```bash
-flutter build ios --release
-```
-
 ## 📁 Project Structure
 
 ```
@@ -220,7 +162,6 @@ plant_ai_disease_flutter/
 ```
 
 ## 🎯 Key Features Walkthrough
-
 ### **1. AI Disease Detection Flow**
 1. **Camera Access**: Open AI Scan tab
 2. **Image Capture**: Take photo of affected plant
@@ -238,58 +179,6 @@ plant_ai_disease_flutter/
 1. **Location Detection**: Automatic GPS-based location
 2. **Current Conditions**: Real-time weather display
 3. **Agricultural Insights**: Weather impact on plant health
-
-## 🔧 Troubleshooting
-
-### **Common Issues**
-
-#### **Camera Initialization Stuck**
-- **Problem**: "Initializing Camera..." never completes
-- **Solution**: Configure virtual cameras in Android emulator AVD Manager
-- **Alternative**: Test on physical device with actual cameras
-
-#### **TensorFlow Model Loading Errors**
-- **Problem**: ML model fails to load
-- **Solution**: Ensure `.tflite` files are in `assets/models/` directory
-- **Check**: Verify model files are included in `pubspec.yaml`
-
-#### **Supabase Connection Issues**
-- **Problem**: Database queries fail
-- **Solution**: Verify `.env` configuration with correct Supabase credentials
-- **Check**: Ensure internet connectivity and Supabase project is active
-
-#### **Weather API Errors**
-- **Problem**: Weather data not loading
-- **Solution**: Verify OpenWeatherMap API key in `.env` file
-- **Check**: Ensure location permissions are granted
-
-### **Debug Mode**
-Enable debug logging by setting `DEBUG_MODE=true` in `.env` file to see detailed console output.
-
-## 🤝 Contributing
-
-1. **Fork the Repository**
-2. **Create Feature Branch**: `git checkout -b feature/amazing-feature`
-3. **Commit Changes**: `git commit -m 'Add amazing feature'`
-4. **Push to Branch**: `git push origin feature/amazing-feature`
-5. **Open Pull Request**
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **TensorFlow Team**: For TensorFlow Lite framework
-- **Supabase Team**: For backend-as-a-service platform
-- **Flutter Team**: For the amazing cross-platform framework
-- **OpenWeatherMap**: For weather API services
-- **Agricultural Experts**: For disease identification expertise
-
-## 📞 Support
-
-For support,  create an issue in the repository.
-
 ---
 
 **Made with ❤️ for farmers and gardeners worldwide** 🌱
