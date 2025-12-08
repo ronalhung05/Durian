@@ -8,6 +8,7 @@ This Flutter application combines computer vision, machine learning, and agricul
 
 ## ✨ Core Features
 
+
 ### 🔍 **AI-Powered Disease Detection**
 - **Real-time Camera Analysis**: Capture plant images using the device camera
 - **Advanced ML Models**: TensorFlow Lite integration for on-device inference
