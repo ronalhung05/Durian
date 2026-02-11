@@ -91,36 +91,3 @@ Check that Flutter is properly configured:
 flutter doctor
 ```
 
-## 📁 Project Structure
-
-```
-plant_ai_disease_flutter/
-├── lib/
-│   ├── core/                          # Core functionality
-│   │   ├── config/                    # Configuration files
-│   │   ├── providers/                 # State management
-│   │   ├── services/                  # Business logic services
-│   │   ├── theme/                     # App theming
-│   │   └── utils/                     # Utility functions
-│   ├── features/                      # Feature modules
-│   │   ├── ai_scan/                   # AI disease detection
-│   │   ├── auth/                      # Authentication
-│   │   └── home/                      # Home & plant library
-│   ├── navigation/                    # App routing
-│   ├── shared/                        # Shared components
-│   │   └── widgets/                   # Reusable widgets
-│   └── main.dart                      # App entry point
-├── assets/                            # Static assets
-│   ├── images/                        # Image assets
-│   ├── models/                        # ML models
-│   └── icons/                         # App icons
-├── android/                           # Android-specific code
-├── ios/                               # iOS-specific code
-├── test/                              # Unit and widget tests
-├── .env.example                       # Environment template
-├── pubspec.yaml                       # Dependencies
-└── README.md                          # This file
-```
-
-
-**Made with ❤️ for farmers and gardeners worldwide** 🌱
