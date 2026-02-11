@@ -37,31 +37,6 @@ A comprehensive Flutter mobile application that leverages artificial intelligenc
 - **Smooth Animations**: Enhanced user experience with fluid transitions
 - **Accessibility**: Built with accessibility best practices
 
-## 🛠️ Technical Stack
-### **Frontend**
-- **Framework**: Flutter 3.24.5
-- **Language**: Dart 3.5.4
-- **State Management**: Provider pattern
-- **Navigation**: GoRouter for declarative routing
-- **UI Components**: Material Design 3
-
-### **Backend & Database**
-- **Backend**: Supabase (PostgreSQL)
-- **Authentication**: Supabase Auth
-- **Real-time Data**: Supabase Realtime
-- **File Storage**: Supabase Storage
-
-### **AI & Machine Learning**
-- **ML Framework**: TensorFlow Lite
-- **Image Processing**: Camera plugin with ML integration
-- **Model Format**: .tflite models for on-device inference
-
-### **External Services**
-- **Weather API**: OpenWeatherMap integration
-- **Location Services**: Geolocator for GPS functionality
-- **Permissions**: Camera, location, and storage permissions
-
-
 ## 🚀 Installation & Setup
 
 ### **1. Clone the Repository**
