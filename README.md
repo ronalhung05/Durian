@@ -2,41 +2,47 @@
 
 A comprehensive Flutter mobile application that leverages artificial intelligence to detect plant diseases (durian) through image analysis, providing farmers and gardeners with instant diagnosis and treatment recommendations.
 ## ✨ Core Features
+- **AI-Powered Disease Detection**  
+  Real-time camera capture with on-device TensorFlow Lite models for fast, accurate durian leaf disease diagnosis.
 
-### 🔍 **AI-Powered Disease Detection**
-- **Real-time Camera Analysis**: Capture plant images using the device camera
-- **Advanced ML Models**: TensorFlow Lite integration for on-device inference
-- **High Accuracy**: Trained models for detecting various plant diseases
-- **Instant Results**: Get disease diagnosis within seconds
+- **Knowledge-Based Disease Guidance**  
+  Supabase-backed database of durian varieties, diseases, symptoms, scientific information, treatment plans, and prevention tips.
 
-### 📚 **Comprehensive Plant Library**
-- **Extensive Database**: Browse detailed information about various crops
-- **Disease Catalog**: Complete database of plant diseases with symptoms
-- **Scientific Information**: Scientific names, families, and origins
-- **Growing Guides**: Seasonal information and growing conditions
+- **Context-Aware Assistance**  
+  Location-based weather (OpenWeather API) and basic agricultural insights to adjust care recommendations.
 
-### 🩺 **Detailed Disease Information**
-- **Expandable Sections**: Collapsible causes and treatment information
-- **Database Integration**: Real disease data from Supabase backend
-- **Treatment Recommendations**: Specific treatment plans for each disease
-- **Prevention Tips**: Proactive measures to prevent disease occurrence
+- **Full Mobile Experience**  
+  Secure Supabase authentication, user profiles and history, responsive Material Design UI, and smooth animations.
 
-### 🌤️ **Weather Integration**
-- **Location-based Weather**: Current weather conditions for your area
-- **Agricultural Insights**: Weather impact on plant health
-- **Smart Recommendations**: Weather-based care suggestions
+## 📱 App Screenshots
+A few key screens from the final mobile application:
+<p align="center">
+  <img src="assets/for-readme/home_screen.jpg" width="25%" alt="Home Screen">
+  <img src="assets/for-readme/plant_detail_screen.jpg" width="25%" alt="Plant Detail">
+  <img src="assets/for-readme/disease_detail_screen_1.jpg" width="25%" alt="Disease Detail">
+</p>
+<p align="center">
+  <img src="assets/for-readme/scan_detail.jpg" width="25%" alt="Scan Detail">
+  <img src="assets/for-readme/scan_result_screen.jpg" width="25%" alt="Scan Result">
+  <img src="assets/for-readme/scan_history_screen.jpg" width="25%" alt="Scan History">
+</p>
 
-### 👤 **User Authentication**
-- **Secure Login**: Supabase authentication integration
-- **User Profiles**: Personalized experience and history
-- **Data Sync**: Cross-device synchronization of user data
+## 🎥 Demo Video
 
-### 🎨 **Modern UI/UX**
-- **Material Design**: Clean, intuitive interface
-- **Responsive Layout**: Optimized for various screen sizes
-- **Smooth Animations**: Enhanced user experience with fluid transitions
-- **Accessibility**: Built with accessibility best practices
+Watch a full demo of the app in action: 
+[▶ Watch demo on YouTube](https://youtu.be/Ddg2aPrygS8)
 
+## 🧠 AI Implementation
+
+### 📊 Data
+- Training: Durian leaf disease dataset on Mendeley Data  
+  https://data.mendeley.com/datasets/pxzvksbwnj/4 
+- Cross-Validation: Self-collected practical durian dataset on Vietnamese field  
+  https://www.kaggle.com/datasets/phihngtrnnguyn/pratical-durian 
+
+### 🧮 Model
+- Full training pipeline and TFLite export in Kaggle Notebook  
+  https://www.kaggle.com/code/phihngtrnnguyn/mobilenetv3-large-dl-pipeline-42 [web:210]
 ## 🚀 Installation & Setup
 
 ### **1. Clone the Repository**
