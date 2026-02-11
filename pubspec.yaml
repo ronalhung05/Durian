@@ -1,5 +1,5 @@
 name: plant_ai_disease_flutter
-description: A Flutter app for plant disease detection using AI
+description: DurianCare - AI-powered plant disease detection app
 publish_to: 'none'
 version: 1.0.0+1
 
@@ -94,6 +94,6 @@ flutter:
 flutter_launcher_icons:
   android: true
   ios: false
-  image_path: "assets/app-icon.png"
-  adaptive_icon_background: "#ffffff"
-  adaptive_icon_foreground: "assets/app-icon.png"
+  image_path: "assets/app-icon.jpg"
+  adaptive_icon_background: "#4CAF50"
+  adaptive_icon_foreground: "assets/app-icon.jpg"

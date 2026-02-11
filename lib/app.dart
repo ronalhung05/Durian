@@ -18,7 +18,7 @@ class PlantDiseaseApp extends StatelessWidget {
       child: Consumer<AuthProvider>(
         builder: (context, authProvider, child) {
           return MaterialApp.router(
-            title: 'Plant Disease Detection',
+            title: 'DurianCare',
             theme: AppTheme.lightTheme,
             routerConfig: AppRouter.router,
             debugShowCheckedModeBanner: false,
