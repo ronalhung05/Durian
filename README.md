@@ -37,31 +37,6 @@ A comprehensive Flutter mobile application that leverages artificial intelligenc
 - **Smooth Animations**: Enhanced user experience with fluid transitions
 - **Accessibility**: Built with accessibility best practices
 
-## 🛠️ Technical Stack
-### **Frontend**
-- **Framework**: Flutter 3.24.5
-- **Language**: Dart 3.5.4
-- **State Management**: Provider pattern
-- **Navigation**: GoRouter for declarative routing
-- **UI Components**: Material Design 3
-
-### **Backend & Database**
-- **Backend**: Supabase (PostgreSQL)
-- **Authentication**: Supabase Auth
-- **Real-time Data**: Supabase Realtime
-- **File Storage**: Supabase Storage
-
-### **AI & Machine Learning**
-- **ML Framework**: TensorFlow Lite
-- **Image Processing**: Camera plugin with ML integration
-- **Model Format**: .tflite models for on-device inference
-
-### **External Services**
-- **Weather API**: OpenWeatherMap integration
-- **Location Services**: Geolocator for GPS functionality
-- **Permissions**: Camera, location, and storage permissions
-
-
 ## 🚀 Installation & Setup
 
 ### **1. Clone the Repository**
@@ -116,36 +91,3 @@ Check that Flutter is properly configured:
 flutter doctor
 ```
 
-## 📁 Project Structure
-
-```
-plant_ai_disease_flutter/
-├── lib/
-│   ├── core/                          # Core functionality
-│   │   ├── config/                    # Configuration files
-│   │   ├── providers/                 # State management
-│   │   ├── services/                  # Business logic services
-│   │   ├── theme/                     # App theming
-│   │   └── utils/                     # Utility functions
-│   ├── features/                      # Feature modules
-│   │   ├── ai_scan/                   # AI disease detection
-│   │   ├── auth/                      # Authentication
-│   │   └── home/                      # Home & plant library
-│   ├── navigation/                    # App routing
-│   ├── shared/                        # Shared components
-│   │   └── widgets/                   # Reusable widgets
-│   └── main.dart                      # App entry point
-├── assets/                            # Static assets
-│   ├── images/                        # Image assets
-│   ├── models/                        # ML models
-│   └── icons/                         # App icons
-├── android/                           # Android-specific code
-├── ios/                               # iOS-specific code
-├── test/                              # Unit and widget tests
-├── .env.example                       # Environment template
-├── pubspec.yaml                       # Dependencies
-└── README.md                          # This file
-```
-
-
-**Made with ❤️ for farmers and gardeners worldwide** 🌱
