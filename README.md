@@ -97,3 +97,17 @@ Check that Flutter is properly configured:
 flutter doctor
 ```
 
+## 📸 Screenshots
+
+Product screenshots showcasing the app's features and user interface are available in the [`screenshots/`](screenshots/) directory.
+
+### Key Features Demonstrated:
+- 🔐 **Authentication Flow**: Login and signup screens
+- 🏠 **Dashboard**: Main interface and navigation
+- 📷 **AI Detection**: Camera interface and disease detection results
+- 📚 **Plant Library**: Comprehensive plant and disease database
+- 🌤️ **Weather Integration**: Real-time weather data and insights
+- 💊 **Treatment Info**: Detailed disease information and recommendations
+
+> **Note**: To add your own screenshots, place them in the `screenshots/` directory following the naming conventions outlined in [`screenshots/README.md`](screenshots/README.md).
+
